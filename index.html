@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Light or Day Mode -->
+        <!-- <link rel="stylesheet" href="css/light.css"> -->
+        <link rel="stylesheet" href="css/dark.css">
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&display=swap" rel="stylesheet">
+
+        <title>QuickCalc</title>
+    </head>
+
+    <body>
+        
+        <div class="wrapper">
+            <main class="calculator-body">
+
+                <section class="calculator-display">
+
+                </section>
+
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li class="nav-item btn-backspace" onclick="calculationObj.clearLast()"><i class="fas fa-backspace"></i></li>
+                    </ul>
+                </nav>
+
+                <section class="calculator-controls">
+                    <section class="calculator-buttons">
+                        <div class="controls-row1">
+                            <button class="btn-control btn-clear" onclick="calculationObj.clearAll();">C</button>
+                            <button class="btn-control btn-function" onclick="calculationObj.addParanthesis()">&lpar;&rpar;</button>
+                            <button class="btn-control btn-function" onclick="calculationObj.addAction('percent')"><i class="fas fa-percentage"></i></button>
+                            <button class="btn-control btn-function" onclick="calculationObj.addParanthesis('divide')"><i class="fas fa-divide"></i></button>
+                        </div>
+
+                        <div class="controls-row2">
+                            <button class="btn-number" onclick="calculationObj.addNumber(7)">7</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(8)">8</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(9)">9</button>
+                            <button class="btn-control btn-function" onclick="calculationObj.addAction('times')"><i class="fas fa-times"></i></button>
+                        </div>
+
+                        <div class="controls-row3">
+                            <button class="btn-number" onclick="calculationObj.addNumber(4)">4</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(5)">5</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(6)">6</button>
+                            <button class="btn-control btn-function" onclick="calculationObj.addAction('minus')"><i class="fas fa-minus"></i></button>
+                        </div>
+
+                        <div class="controls-row4">
+                            <button class="btn-number" onclick="calculationObj.addNumber(1)">1</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(2)">2</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(3)">3</button>
+                            <button class="btn-control btn-function" onclick="calculationObj.addAction('plus')"><i class="fas fa-plus"></i></button>
+                        </div>
+
+                        <div class="controls-row5">
+                            <button class="btn-number" onclick="calculationObj.switchSign()">&plusmn;</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber(0)">0</button>
+                            <button class="btn-number" onclick="calculationObj.addNumber('.')">.</button>
+                            <button class="btn-control btn-function" onclick="calculationObj.resolve()"><i class="fas fa-equals"></i></button>
+                        </div>
+                    </section>
+                </section>
+
+            </main>
+        </div>
+
+        <!-- FontAwesome Script -->
+        <script type="text/javascript" src="/js/all.min.js"></script>
+
+        <!-- App JavaScript -->
+        <script type="text/javascript" src="/js/app.min.js"></script>
+    </body>
+</html>

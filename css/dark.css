@@ -1,0 +1,32 @@
+/* 
+
+    Project: Quick Calc
+    Developer: Richard Haddad
+
+    Start Date: 04.10.2021
+    Last Modified: XX.XX.2021
+
+    File Purpose: Styling for Night / Dark Mode
+
+*/
+
+main.calculator-body {
+    background-color: #283637;
+}
+
+button.btn-clear {
+    background-color: #6c807e;
+    color: white;
+}
+
+button.btn-number {
+    color: white;
+}
+
+button.btn-number {
+
+}
+
+nav.main-nav {
+    color: #6c807e;
+}

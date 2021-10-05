@@ -1,0 +1,15 @@
+/* 
+
+    Project: Quick Calc
+    Developer: Richard Haddad
+
+    Start Date: 04.10.2021
+    Last Modified: XX.XX.2021
+
+    File Purpose: Styling for Day / Light Mode
+
+*/
+
+button.btn-clear {
+    background-color: white;
+}
