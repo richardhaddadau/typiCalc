@@ -21,7 +21,6 @@
   <p align="center">
     <br />
     <a href="https://github.com/richardhaddadau/quickCalc"><strong>Explore the docs »</strong></a>
-    <br />
     ·
     <a href="https://github.com/richardhaddadau/quickCalc/issues">Report Bug</a>
     ·
