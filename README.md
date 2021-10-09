@@ -23,7 +23,7 @@ To avoid the added, unnecessary, bloating, I decided on just leaving it simple.
 
 One HTML file for user interaction.
 
-TO-DO: TASKS STILL TO BE DONE
+TO-DO: Tasks Still to be Done
 ======
 - Add Parenthesis Control
 - Add Parentthesis Functionality within Mathematical Expression
