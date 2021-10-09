@@ -13,3 +13,17 @@
 button.btn-clear {
     background-color: white;
 }
+
+nav.main-nav ul.main-nav-list .btn-dark-mode {
+    display: block;
+
+    opacity: .5;
+}
+
+nav.main-nav ul.main-nav-list .btn-dark-mode:hover {
+    opacity: 1;
+}
+
+nav.main-nav ul.main-nav-list .btn-light-mode {
+    display: none;
+}

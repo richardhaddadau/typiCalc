@@ -30,3 +30,15 @@ button.btn-number {
 nav.main-nav {
     color: #6c807e;
 }
+
+nav.main-nav ul.main-nav-list .btn-light-mode {
+    display: block;
+}
+
+nav.main-nav ul.main-nav-list .btn-light-mode:hover {
+    color: white;
+}
+
+nav.main-nav ul.main-nav-list .btn-dark-mode {
+    display: none;
+}
