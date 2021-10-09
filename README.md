@@ -31,19 +31,19 @@ TO-DO: TASKS STILL TO BE DONE
 - Create HTML elements in Display wrapper
 - Move updates from Console.log to Display elements
 - ~~Set up HTML~~
-- ~~Set up CSS
-- ~~Add JavaScript for Numbers
-- ~~Add JavaScript for Operators
-- ~~Add Addition Control
-- ~~Add Subtraction Control
-- ~~Add Division Control
-- ~~Add Multiplication Control
+- ~~Set up CSS~~
+- ~~Add JavaScript for Numbers~~
+- ~~Add JavaScript for Operators~~
+- ~~Add Addition Control~~
+- ~~Add Subtraction Control~~
+- ~~Add Division Control~~
+- ~~Add Multiplication Control~~
 
 Bonus Features
 ======
 - Add History to view previous calculations
 - Allow using results from history for new expressions (either use history object or, otherwise, memoization?)
-- ~~Add Light/Dark Modes
+- ~~Add Light/Dark Modes~~
 
 Change Log
 ======
