@@ -30,7 +30,7 @@ TO-DO: TASKS STILL TO BE DONE
 - Add ± (plus/minus) Functionality
 - Create HTML elements in Display wrapper
 - Move updates from Console.log to Display elements
-- ~~Set up HTML
+- ~~Set up HTML~~
 - ~~Set up CSS
 - ~~Add JavaScript for Numbers
 - ~~Add JavaScript for Operators
