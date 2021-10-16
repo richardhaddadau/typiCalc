@@ -23,20 +23,20 @@ button.btn-number {
     color: white;
 }
 
-button.btn-number {
-
+button.btn-number:hover {
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
-nav.main-nav {
+nav.main-nav ul.main-nav-list .nav-item {
     color: #6c807e;
+}
+
+nav.main-nav ul.main-nav-list .nav-item:hover {
+    color: white;
 }
 
 nav.main-nav ul.main-nav-list .btn-light-mode {
     display: block;
-}
-
-nav.main-nav ul.main-nav-list .btn-light-mode:hover {
-    color: white;
 }
 
 nav.main-nav ul.main-nav-list .btn-dark-mode {

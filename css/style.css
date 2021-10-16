@@ -124,10 +124,8 @@ button.btn-function {
 
 button.btn-number {
     background-color: transparent;
-}
 
-button:hover {
-
+    transition: all 0.15s ease-in;
 }
 
 /* Navigation Controls */
@@ -142,6 +140,7 @@ nav.main-nav ul.main-nav-list {
     flex-wrap: nowrap;
 
     margin: 0 20px;
+    padding: 0 20px;
     
     height: 100%;
 
@@ -150,12 +149,11 @@ nav.main-nav ul.main-nav-list {
     font-size: 1.7rem;
     list-style-type: none;
 
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
-nav.main-nav ul.main-nav-list .btn-dark-mode,
-nav.main-nav ul.main-nav-list .btn-light-mode {
+nav.main-nav ul.main-nav-list .nav-item {
     cursor: pointer;
 
     transition: all 0.25s ease;

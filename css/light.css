@@ -14,14 +14,20 @@ button.btn-clear {
     background-color: white;
 }
 
-nav.main-nav ul.main-nav-list .btn-dark-mode {
-    display: block;
-
-    opacity: .5;
+button.btn-number:hover {
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
-nav.main-nav ul.main-nav-list .btn-dark-mode:hover {
-    opacity: 1;
+nav.main-nav ul.main-nav-list .nav-item {
+    opacity: 0.5;
+}
+
+nav.main-nav ul.main-nav-list .nav-item:hover {
+    opacity: 1.0;
+}
+
+nav.main-nav ul.main-nav-list .btn-dark-mode {
+    display: block;
 }
 
 nav.main-nav ul.main-nav-list .btn-light-mode {
