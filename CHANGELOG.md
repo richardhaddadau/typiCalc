@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.3
+- Add Parentheses Handling
+- Optimise Light / Dark Mode Functionality
+- Optimise Addition, Subtraction, Multiplication and Division Functionality
+ 
 ## v0.1.2
 - Change Readme Template
 
