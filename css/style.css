@@ -1,6 +1,6 @@
 /* 
 
-    Project: Quick Calc
+    Project: TypiCalc
     Developer: Richard Haddad
 
     Start Date: 04.10.2021
