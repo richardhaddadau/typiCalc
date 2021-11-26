@@ -132,6 +132,8 @@ Feel free to use this project for teaching and learning.
 - [ ] Create HTML elements in Display wrapper
 - [ ] Move updates from Console.log to Display elements
 - [ ] Optimise Comments for Learning
+- [x] Add Changelog
+- [x] Add Parenthesis Control
 - [x] Set up HTML
 - [x] Set up CSS
 - [x] Add JavaScript for Numbers
