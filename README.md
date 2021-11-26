@@ -75,7 +75,7 @@ It's already a very light project and I won't be using much of the functionality
 
 One HTML file for user interaction.
 
-Originally, I had named this project QuickCalc but figured that it may be mistakened for a simple-feature calculator. I renamed it in v0.1.4 to TypiCalc because the aim is to provide complete functionality of a typical calculator.
+<em>Originally, I had named this project QuickCalc but figured that it may be mistakened for a simple-feature calculator. I renamed it in v0.1.4 to TypiCalc because the aim is to provide complete functionality of a typical calculator.</em>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
